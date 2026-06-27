@@ -1,0 +1,54 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Critical MANTIS & ML stack
+mantis-tsfm==0.2.0
+huggingface-hub==0.23.5
+transformers==4.45.0
+accelerate==1.2.1
+tokenizers==0.20.0
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# Core Scientific Stack
+numpy>=2.0.0
+pandas>=2.0.0
+scikit-learn>=1.5.0
+scipy>=1.10.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities (Let Pip choose the best version for your OS/Python)
+certifi
+charset-normalizer
+colorama
+contourpy
+cycler
+einops
+filelock
+fonttools
+fsspec
+idna
+Jinja2
+joblib
+kiwisolver
+MarkupSafe
+mpmath
+networkx
+packaging
+pillow
+psutil
+pyparsing
+python-dateutil
+pytz
+PyYAML
+regex
+requests
+safetensors
+six
+sympy
+threadpoolctl
+tqdm
+typing_extensions
+tzdata
+urllib3

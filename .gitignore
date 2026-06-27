@@ -1,0 +1,65 @@
+# -----------------------------
+# Python general
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+.venv_mantis/
+ENV/
+
+# -----------------------------
+# IDE and editor files
+# -----------------------------
+# PyCharm / IntelliJ
+.idea/
+# VSCode
+.vscode/
+
+# -----------------------------
+# Logs and temp files
+# -----------------------------
+*.log
+*.tmp
+*.temp
+*.cache/
+*.bak
+
+# -----------------------------
+# Build and distribution
+# -----------------------------
+build/
+dist/
+*.spec
+
+# -----------------------------
+# Jupyter & data files (optional)
+# -----------------------------
+.ipynb_checkpoints/
+.DS_Store
+
+data
+PAMAP2_Dataset
+class_mapping.npy
+
+.venv_mantis!/TODO
+/.idea
+TODO
+/figures/
+/results/rq3_embeddings/
+/wisdm-dataset/
+
+processed
+data_wisdm
+/data_mhealth/
+/MHEALTHDATASET/

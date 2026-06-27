@@ -1,0 +1,5 @@
+Full WISDM preparation flow:
+
+python src-wisdm\preprocess_wisdm.py --root wisdm-dataset --device watch --window 128 --stride 64
+python src-wisdm\extract_wisdm_mantis_embeddings.py
+python src-wisdm\create_wisdm_mantis_subject_cache.py
